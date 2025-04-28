@@ -1,5 +1,5 @@
 <h2>Form Tambah User</h2>
-
+@vite(['resources/css/app.css', 'resources/js/app.js'])
 @if (session('success'))
 <p style="color: green;">{{ session('success') }}</p>
 @endif
@@ -20,3 +20,4 @@
     <input type="password" name="password_confirmation" placeholder="Konfirmasi Password"><br>
     <button type="submit">Simpan</button>
 </form>
+<div class="bg-blue-900"> kontol</div>
